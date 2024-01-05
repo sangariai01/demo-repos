@@ -1,10 +1,15 @@
 #include <stdio.h>
-int main()
+int forprgrm()
 {
     int i;
     int j;
     for(i=0;i<=6;i++)
 {
-    printf("*\n\t");
-}return 0;
+    for(j=10;j>6;j--)
+    {
+    printf("*");
+}
+printf("#\n\t");
+}
+return 0;
 }
