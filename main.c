@@ -1,6 +1,7 @@
-# include <stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    printf ("My first vs code program");
+    printf("Hello world!\n");
     return 0;
 }
