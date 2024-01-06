@@ -1,11 +1,11 @@
 #include<stdio.h>
-int switchprgrm()
+int main()
 {
     int a;
     int b;
     int c;
     int d;
-    int e;
+    char e;
     printf("\tEnter the value :  \n\t");
     scanf("%d",&a);
     if(a==2)
@@ -15,13 +15,13 @@ int switchprgrm()
          printf("Enter the 2nd value : \n");
         scanf("%d",&c);
         printf("Enter the operator: \n");
-        scanf("%d",&e);
+        scanf(" %c",&e);
         switch(e)
         {
-        case 1:
+        case '+':
     printf("The added value : %d \n\t",b+c);
             break;
-            case 2:
+            case '-':
     printf("The added value : %d \n\t",b-c);
             break;
         }
@@ -35,7 +35,7 @@ int switchprgrm()
          printf("Enter the 3nd value : \n");
         scanf("%d",&d);
         printf("Enter the operator: \n");
-        scanf("%d",&e);
+        scanf(" %c",&e);
         switch(e)
         {
         case 1:
